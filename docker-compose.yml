@@ -1,0 +1,8 @@
+# docker compose para app flask 
+
+version: '3.7'
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
