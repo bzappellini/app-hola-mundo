@@ -1,7 +1,7 @@
 # dockerfile para correr una app flask en un contenedor de docker
 
-# Imagen base
-FROM python:3.8.5
+# Imagen base comparible con raspberry pi
+FROM arm32v7/python:3.7.3-stretch
 
 # Directorio de trabajo
 WORKDIR /app
